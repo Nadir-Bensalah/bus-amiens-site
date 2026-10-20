@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self'; style-src 'self'; script-src 'self'; base-uri 'none'; form-action 'none'">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+
+  <title>Bus Amiens : votre bus, avant même d'y penser</title>
+  <meta name="description" content="Les horaires en temps réel des bus d'Amiens, la carte en direct avec chaque bus qui roule, et Picou, le compagnon qui vous dit quand partir. Sans compte, sans pub. Sur iPhone et Apple Watch.">
+  <link rel="canonical" href="https://nadir-bensalah.github.io/bus-amiens-site/">
+
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Bus Amiens">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:title" content="Bus Amiens : votre bus, avant même d'y penser">
+  <meta property="og:description" content="Horaires en temps réel, carte en direct, et Picou qui vous dit quand partir. Sans compte, sans pub.">
+  <meta property="og:url" content="https://nadir-bensalah.github.io/bus-amiens-site/">
+  <meta property="og:image" content="https://nadir-bensalah.github.io/bus-amiens-site/assets/img/icone.png">
+  <meta name="twitter:card" content="summary">
+
+  <meta name="theme-color" content="#1D1D1F">
+  <link rel="icon" href="assets/img/favicon.png" type="image/png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="stylesheet" href="assets/css/site.css">
+  <script src="assets/js/site.js" defer></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": ["SoftwareApplication", "MobileApplication"],
+    "name": "Amiens - Bus & Vélam",
+    "alternateName": "Bus Amiens",
+    "description": "Les horaires en temps réel des bus d'Amiens, la carte en direct, et Picou, le compagnon qui vous dit quand partir. Sans compte, sans publicité.",
+    "url": "https://nadir-bensalah.github.io/bus-amiens-site/",
+    "image": "https://nadir-bensalah.github.io/bus-amiens-site/assets/img/icone.png",
+    "operatingSystem": "iOS 15.1 ou ultérieur",
+    "applicationCategory": "TravelApplication",
+    "inLanguage": "fr",
+    "installUrl": "https://apps.apple.com/app/id6802407427",
+    "countriesSupported": "FR",
+    "publisher": { "@type": "Organization", "name": "Capmedia Digital", "email": "contact@capmedia.app" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "0",
+      "highPrice": "3.99",
+      "offerCount": "2",
+      "offers": [
+        { "@type": "Offer", "name": "Gratuit", "price": "0", "priceCurrency": "EUR", "description": "Horaires, temps réel, carte en direct, arrêts, lignes, Vélam et Picou, pour toujours." },
+        { "@type": "Offer", "name": "Tout débloqué, à vie", "price": "3.99", "priceCurrency": "EUR", "description": "Partez à l'heure, réveil de descente, suivi sur l'écran verrouillé, widgets, Apple Watch, alertes. Un seul paiement." }
+      ]
+    }
+  }
+  </script>
+</head>
+<body>
+
+<header class="nav">
+  <div class="apple-content nav__inner">
+    <a class="nav__brand" href="./"><img src="assets/img/icone.png" alt="" width="26" height="26">Bus Amiens</a>
+    <ul class="nav__links">
+      <li><a href="#carte">La carte</a></li>
+      <li><a href="#fonctions">Fonctions</a></li>
+      <li><a href="#picou">Picou</a></li>
+      <li><a href="#tarif">Tarif</a></li>
+      <li><a href="support.html">Support</a></li>
+      <li><a class="nav__cta" href="https://apps.apple.com/app/id6802407427">Télécharger</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+
+  <section class="hero">
+    <div class="apple-content hero__content">
+      <div>
+        <p class="hero__eyebrow">Amiens - Bus &amp; Vélam, sur iPhone et Apple Watch</p>
+        <h1 class="hero__headline">Votre bus.<br>Avant même <span>d'y penser.</span></h1>
+        <p class="hero__subtitle">Les horaires en temps réel, la carte en direct avec chaque bus qui roule, et Picou qui vous dit quand partir.</p>
+        <div class="hero__cta">
+          <a class="btn btn--light" href="https://apps.apple.com/app/id6802407427">Télécharger sur l'App Store</a>
+          <a class="link-arrow" href="#fonctions">Voir ce qu'elle fait</a>
+        </div>
+        <p class="hero__note">Gratuit pour l'essentiel. Sans compte, sans publicité, sans traqueur.</p>
+      </div>
+      <div class="hero__visual">
+        <div class="phone"><img src="assets/img/ecran-accueil-sombre.png" alt="L'accueil de l'application : la carte en direct en haut, puis le prochain départ du trajet enregistré avec l'heure à laquelle partir." width="1200" height="2608"></div>
+        <img class="hero__mascotte" src="assets/img/mascotte-bienvenue.png" alt="" width="480" height="480">
+      </div>
+    </div>
+  </section>
+
+  <section id="carte" class="apple-section section--gray">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">La carte. En direct.</h2>
+        <p class="section__lead">Chaque bus d'Amiens, représenté par Picou, avance sur la carte en temps réel. Vos lignes tracées dans leur couleur, vos arrêts encadrés. Un tap, et la carte prend tout l'écran.</p>
+      </div>
+      <div class="split reveal">
+        <div class="split__visual"><div class="phone"><img src="assets/img/ecran-carte.png" alt="La carte en plein écran : le tracé rouge du N2, les arrêts encadrés, et les mascottes qui roulent." width="1200" height="2608"></div></div>
+        <div class="split__text">
+          <h3>Il est où, mon bus ?</h3>
+          <p>Le réseau publie la position des bus toutes les quinze secondes. L'app les fait rouler entre deux, à leur vitesse, le long de leur ligne. On regarde un bus qui avance, pas un point qui saute.</p>
+          <p>Touchez un arrêt : ses lignes, ses prochains passages, sans quitter la carte.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fonctions" class="apple-section">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">Partez à l'heure. Descendez au bon arrêt.</h2>
+        <p class="section__lead">Les apps de transport donnent l'heure du bus. Celle-ci donne l'heure à laquelle fermer la porte.</p>
+      </div>
+      <div class="split split--reverse reveal">
+        <div class="split__visual"><div class="phone"><img src="assets/img/ecran-trajet.png" alt="La fiche d'un trajet : les prochains départs avec l'heure d'arrivée, « Partez dans 2 min », le bouton Je cours et le réveil de descente." width="1200" height="2608"></div></div>
+        <div class="split__text">
+          <h3>« Partez dans 6 min. »</h3>
+          <p>L'app sait où vous êtes, où est votre arrêt et quand passe votre bus. Elle compte le temps de marche, à votre allure, et vous dit quand partir. Une alerte sonne à l'heure de partir, pas à l'heure du bus.</p>
+          <p>Si le prochain est trop juste, elle vise le suivant. Et le dit.</p>
+        </div>
+      </div>
+      <div class="grid reveal">
+        <article class="card">
+          <img src="assets/img/mascotte-sommeil.png" alt="" width="96" height="96">
+          <h3>Réveil de descente</h3>
+          <p>Vous lisez, vous somnolez, vous avez des écouteurs : le téléphone vibre deux arrêts avant le vôtre, puis au dernier. Il suit le bus, écran éteint.</p>
+          <span class="card__badge">Tout débloqué</span>
+        </article>
+        <article class="card">
+          <img src="assets/img/mascotte-prochain-depart.png" alt="" width="96" height="96">
+          <h3>Sur l'écran verrouillé</h3>
+          <p>Le compte à rebours de votre bus, dans l'île dynamique et sur l'écran verrouillé. Il démarre tout seul à l'heure de votre trajet habituel.</p>
+          <span class="card__badge">Tout débloqué</span>
+        </article>
+        <article class="card">
+          <img src="assets/img/mascotte-notification.png" alt="" width="96" height="96">
+          <h3>Alertes de passage</h3>
+          <p>Prévenu avant le bus, aux jours et aux heures que vous choisissez. Une seule alerte par plage, jamais quarante.</p>
+          <span class="card__badge">Tout débloqué</span>
+        </article>
+        <article class="card">
+          <img src="assets/img/mascotte-localisation.png" alt="" width="96" height="96">
+          <h3>Widgets</h3>
+          <p>Votre prochain bus sur l'écran d'accueil, l'écran verrouillé, en mode En veille sur la table de nuit, et dans le Centre de contrôle. Un bouton pour le sens retour.</p>
+          <span class="card__badge">Tout débloqué</span>
+        </article>
+        <article class="card">
+          <img src="assets/img/mascotte-en-route.png" alt="" width="96" height="96">
+          <h3>Apple Watch</h3>
+          <p>Le prochain bus au poignet, jusque sur le cadran. Sans sortir le téléphone sous la pluie.</p>
+          <span class="card__badge">Tout débloqué</span>
+        </article>
+        <article class="card">
+          <img src="assets/img/mascotte-itineraire.png" alt="" width="96" height="96">
+          <h3>Vos trajets, avec l'heure d'arrivée</h3>
+          <p>Enregistrez le trajet que vous faites souvent. À chaque ouverture, le prochain départ dans votre sens, l'heure d'arrivée, et la correspondance s'il en faut une.</p>
+          <span class="card__badge">Gratuit</span>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="picou" class="apple-section section--dark">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title section__title--on-dark">Picou.</h2>
+        <p class="section__lead">Un tableau d'horaires n'a pas d'âme. Picou, si.</p>
+      </div>
+      <div class="picou reveal">
+        <img src="assets/img/mascotte-victoire.png" alt="Picou, le bus mascotte, les bras levés." width="480" height="480">
+        <div class="picou__text">
+          <h3>Il vous parle. Chaque jour.</h3>
+          <p>Quand partir, s'il va pleuvoir avant votre bus, l'heure du dernier ce soir, le retard du jour, le dimanche où les bus sont rares. Écrit comme un ami d'Amiens, pas comme un panneau.</p>
+          <p>Il a un nom, que vous pouvez changer. Et si vous lui donnez votre prénom, il vous dit bonjour avec.</p>
+          <p>Il sait quand vous avez vraiment pris le bus, et il le fête. Le dimanche soir, il vous raconte votre semaine en bus.</p>
+        </div>
+      </div>
+      <div class="quotes reveal">
+        <blockquote class="quote">« Bonjour Nadir. Votre N2 passe à 7:52, partez dans 10 min. Vous avez le temps d'un café. »<small>7 h 36, un mardi</small></blockquote>
+        <blockquote class="quote">« Averse vers 8:10. Votre N2 passe avant, vous rentrez sec. »<small>Quand il va pleuvoir</small></blockquote>
+        <blockquote class="quote">« Dernier N2 à 23:40. Après, c'est le taxi ou la marche. »<small>Tard le soir</small></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="apple-section section--gray">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">Les arrêts autour de vous. Avec les heures.</h2>
+        <p class="section__lead">Dès l'ouverture, les arrêts les plus proches et leurs prochains bus. Les horaires tiennent dans le téléphone : ils restent lisibles sans réseau. Internet ne sert qu'aux retards.</p>
+      </div>
+      <div class="split reveal">
+        <div class="split__visual"><div class="phone"><img src="assets/img/ecran-arret.png" alt="La feuille d'un arrêt touché sur la carte : toutes ses lignes en pastilles, puis les prochains passages en temps réel." width="1200" height="2608"></div></div>
+        <div class="split__text">
+          <h3>Un arrêt, toutes ses lignes</h3>
+          <p>Les 416 arrêts du réseau, les 42 lignes, les correspondances. Et les stations Vélam, avec les vélos et les places disponibles, pour le jour où le bus est loin.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="tarif" class="apple-section">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">Gratuit pour l'essentiel.<br>3,99 € une fois pour le confort.</h2>
+        <p class="section__lead">Pas d'abonnement. Pas de publicité. Un seul paiement, à vie, pour ce qui rend le bus plus doux.</p>
+      </div>
+      <div class="pricing reveal">
+        <article class="price">
+          <p class="price__name">Gratuit, pour toujours</p>
+          <p class="price__amount">0 €</p>
+          <p class="price__note">Tout ce qu'il faut pour prendre le bus.</p>
+          <ul>
+            <li>Les horaires et le temps réel</li>
+            <li>La carte en direct, avec les bus</li>
+            <li>Les arrêts autour de vous</li>
+            <li>Les lignes et leurs parcours</li>
+            <li>Deux trajets enregistrés</li>
+            <li>Les stations Vélam</li>
+            <li>Picou</li>
+          </ul>
+        </article>
+        <article class="price price--accent">
+          <p class="price__name">Tout débloqué, à vie</p>
+          <p class="price__amount">3,99 € <small>une seule fois</small></p>
+          <p class="price__note">14 jours offerts pour tout essayer.</p>
+          <ul>
+            <li>Partez à l'heure, et l'alerte qui va avec</li>
+            <li>Réveil de descente</li>
+            <li>Suivi sur l'écran verrouillé, qui démarre seul</li>
+            <li>Widgets, En veille, Centre de contrôle</li>
+            <li>Apple Watch et complication</li>
+            <li>Alertes de passage</li>
+            <li>Trajets illimités</li>
+          </ul>
+          <a class="btn" href="https://apps.apple.com/app/id6802407427">Télécharger</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="apple-section section--gray">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">Rien ne quitte votre téléphone.</h2>
+        <p class="section__lead">Il n'y a pas de serveur. Pas de compte. Rien à collecter, donc rien de collecté.</p>
+      </div>
+      <div class="pillars reveal">
+        <div class="pillar"><p class="pillar__num">0</p><h3>compte</h3><p>Ni inscription, ni identifiant. Vous ouvrez, ça marche.</p></div>
+        <div class="pillar"><p class="pillar__num">0</p><h3>traqueur</h3><p>Aucune mesure d'audience, aucune publicité, rien de vendu à personne.</p></div>
+        <div class="pillar"><p class="pillar__num">0</p><h3>position transmise</h3><p>Votre position sert à classer les arrêts et à vous dire quand partir. Elle reste dans le téléphone.</p></div>
+      </div>
+      <p class="section__lead section__more reveal"><a href="confidentialite.html" class="link-arrow">Lire la politique de confidentialité</a></p>
+    </div>
+  </section>
+
+  <section class="apple-section">
+    <div class="apple-content">
+      <div class="section__head reveal">
+        <h2 class="section__title">Questions.</h2>
+      </div>
+      <div class="faq reveal">
+        <details>
+          <summary>D'où viennent les horaires ?</summary>
+          <p>Des données ouvertes publiées par Amiens Métropole sur transport.data.gouv.fr, sous Licence Ouverte 2.0 : horaires, lignes, arrêts, positions des bus et retards. L'application les affiche fidèlement. Elle n'est ni éditée, ni approuvée par Ametis, Keolis ou Amiens Métropole.</p>
+        </details>
+        <details>
+          <summary>Ça marche sans réseau ?</summary>
+          <p>Les horaires, les lignes et les arrêts sont dans le téléphone. Sans réseau, ils restent consultables. Seuls les retards et les positions des bus demandent une connexion.</p>
+        </details>
+        <details>
+          <summary>Faut-il payer pour voir les horaires ?</summary>
+          <p>Non, jamais. Les horaires, le temps réel, la carte, les arrêts, les lignes et Vélam sont gratuits pour toujours. Le paiement unique de 3,99 € ne porte que sur le confort : partez à l'heure, réveil, widgets, montre, alertes.</p>
+        </details>
+        <details>
+          <summary>Comment l'app sait-elle quand je dois partir ?</summary>
+          <p>Elle mesure la distance jusqu'à votre arrêt, compte le détour des rues et votre allure (réglable), garde une minute de marge, et compare au prochain bus que vous pouvez attraper. Si le premier est trop juste, elle vise le suivant.</p>
+        </details>
+        <details>
+          <summary>Le réveil de descente utilise ma position en arrière-plan ?</summary>
+          <p>Seulement quand vous l'activez, pour ce trajet, et il s'éteint seul à l'arrivée. L'indicateur bleu d'iOS reste visible pendant qu'il suit le bus. Rien n'est enregistré ni transmis.</p>
+        </details>
+        <details>
+          <summary>Sur quels appareils ?</summary>
+          <p>iPhone avec iOS 15.1 ou plus récent. Les widgets interactifs et le Centre de contrôle demandent iOS 17 et 18. Apple Watch avec watchOS 9 ou plus récent.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="apple-content">
+    <ul class="footer__links">
+      <li><a href="support.html">Support</a></li>
+      <li><a href="confidentialite.html">Confidentialité</a></li>
+      <li><a href="conditions.html">Conditions d'utilisation</a></li>
+      <li><a href="mentions-legales.html">Mentions légales</a></li>
+      <li><a href="mailto:contact@capmedia.app">contact@capmedia.app</a></li>
+    </ul>
+    <p>© 2026 Capmedia Digital · Nadir Ben Salah. Amiens - Bus &amp; Vélam est une application indépendante, non affiliée à Ametis, Keolis ni Amiens Métropole.</p>
+    <p>Apple, iPhone, Apple Watch et App Store sont des marques d'Apple Inc.</p>
+  </div>
+</footer>
+
+</body>
+</html>
